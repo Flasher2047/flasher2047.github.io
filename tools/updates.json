@@ -1,0 +1,47 @@
+{
+    "popupConfigs": [
+    {
+      "appId": "com.qifang.notificationrecord",
+      "show": true,
+      "forceShow": false,
+      "title": "公告",
+      "content": "如有bug建议可以进行反馈",
+      "buttonText": "确定",
+      "buttonAction": "close",
+      "showNegativeButton": false
+    },
+    {
+      "appId": "com.qifang.tencent",
+      "show": true, 
+  "forceShow": false,
+  "title": "公告",
+  "content": "查询QQ号年龄\n感谢您的使用\n",
+  "buttonText": "确认", 
+  "buttonAction": "close",
+  "showNegativeButton": false
+    }
+  ],
+    "updates": [
+        {
+            "appId": "com.qifang.tencent",
+            "version": "1.5.3",
+            "downloadUrl": "https://d.feiliupan.com/t/118338896139390976/Q创查_release_v1.5.3.apk",
+            "changelog": "1. 优化逻辑\n2. 暂时失效",
+            "showNegativeButton": false
+        },
+        {
+            "appId": "com.qifang.notificationrecord",
+            "version": "0.6.2",
+            "downloadUrl": "https://d.feiliupan.com/t/118338896139390976/通知小记_release_v0.6.2.apk",
+            "changelog": "1.优化页面功能\n2. 添加返回顶部",
+            "showNegativeButton": false
+        },
+        {
+            "appId": "JiYvTrainer",
+            "version": "1.7",
+            "downloadUrl": "https://pan.tenire.com/down.php/bcbbe129e6032fdbee6e2df28fef55e3.exe",
+            "changelog": "1.全屏的广播转为窗口广播\n2. 反监视，教师端就无法监视等",
+            "showNegativeButton": false
+        }
+    ]
+}
