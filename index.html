@@ -224,15 +224,44 @@
     <div class="page-container">
         <h1 class="page-title">柒の坊</h1>
         <div class="app-cards">
-            <!-- 引入后端数据渲染卡片 -->
-            <?php include './tools/apps.php'; ?>
-        </div>
-        <?php if (empty($updates)): ?>
-            <div class="empty-state">
-                暂无更新信息
-                <p style="margin-top: 10px;">请稍后再试</p>
+            <!-- 通知小记 -->
+            <div class="app-card">
+                <h2 class="card-title">通知小记</h2>
+                <p class="card-desc">记录通知拦截撤回消息</p>
+                <div class="card-version">最新版本：0.6.2</div>
+                <div class="card-changelog">1.优化页面功能
+2. 添加返回顶部</div>
+                <div class="card-btns">
+                    <a href="https://d.feiliupan.com/t/118338896139390976/通知小记_release_v0.6.2.apk" class="card-btn btn-download">立即下载</a>
+                    <a href="https://www.123912.com/s/mGRwjv-fKwtd" target="_blank" class="card-btn btn-cloud">网盘下载</a>
+                </div>
             </div>
-        <?php endif; ?>
+            <!-- Q 创查 -->
+            <div class="app-card">
+                <h2 class="card-title">Q 创查</h2>
+                <p class="card-desc">查询您的QQ注册日期(暂时失效)</p>
+                <div class="card-version">最新版本：1.5.3</div>
+                <div class="card-changelog">1. 优化逻辑
+2. 暂时失效</div>
+                <div class="card-btns">
+                    <a href="https://d.feiliupan.com/t/118338896139390976/Q创查_release_v1.5.3.apk" class="card-btn btn-download">立即下载</a>
+                    <a href="https://www.123912.com/s/mGRwjv-fKwtd" target="_blank" class="card-btn btn-cloud">网盘下载</a>
+                </div>
+            </div>
+            <!-- JiYvTrainer -->
+            <div class="app-card">
+                <h2 class="card-title">JiYvTrainer</h2>
+                <p class="card-desc">开源应用搬运-极域免控工具，解除窗口全屏</p>
+                <div class="card-version">最新版本：1.7</div>
+                <div class="card-changelog">1.全屏的广播转为窗口广播
+2. 反监视，教师端就无法监视等</div>
+                <div class="card-btns">
+                    <a href="https://pan.tenire.com/down.php/bcbbe129e6032fdbee6e2df28fef55e3.exe" class="card-btn btn-download">立即下载</a>
+                    <a href="https://github.com/imengyu/JiYuTrainer/releases" target="_blank" class="card-btn btn-cloud">开源下载</a>
+                </div>
+            </div>
+        </div>
+        <!-- 捐赠图片 -->
         <div class="donate-section">
             <img src="tools/donate.png" alt="捐赠支持" class="donate-img">
         </div>
